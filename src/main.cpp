@@ -27,7 +27,7 @@ void loop() {
 
   Serial.println("done");
 
-  delay(1000);
+  delay(5000);
 
   // send extended packet: id is 29 bits, packet can contain up to 8 bytes of data
   Serial.print("Sending extended packet ... ");
@@ -42,5 +42,5 @@ void loop() {
 
   Serial.println("done");
 
-  delay(1000);
+  delay(5000);
 }
